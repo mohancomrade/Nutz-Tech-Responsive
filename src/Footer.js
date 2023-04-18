@@ -4,26 +4,16 @@ import nutzfooter from"./images/ntz-footer.jpg"
 
 function Footer() {
   return (
-    <div className='footer-header'>
+    <div className='dummy-header'>
+     
 
-      <div className="b-example-divider"></div>
-
-      <div className="container">
-        <footer className="row row-cols-5 py-5 my-5 border-top">
-          <div className="col">
-            <a
-              href="/"
-              className="d-flex align-items-center mb-3 link-dark text-decoration-none"
-            >
-              <svg className="bi me-2" width="40" height="32">
-                <use xlinkHref="#bootstrap" />
-              </svg>
-            </a>
-            {/* <p className="text-muted">&copy; 2021</p> */}
-            
-            <img src={nutzfooter} class="img-fluid" alt="..."/>
-
-            <div className="svg-css">
+<footer class="footer-14398">
+<div class="container">
+<div class="row mb-5">
+<div class="col-md-3">
+{/* <a href="#" class="footer-site-logo"></a> */}
+<img src={nutzfooter} className="img-fluid" alt="..."/>
+<div className="svg-css">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -34,7 +24,6 @@ function Footer() {
           >
             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
           </svg>
-
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -67,72 +56,61 @@ function Footer() {
           >
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
-        </div>
-          </div>
-
-          <div className="col"></div>
-
-          <div className="col">
-            <h5>Company</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">About</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Careers</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Training</a>
-              </li>
-             </ul>
-          </div>
-
-          <div className="col">
-            <h5>Our Services</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Designing</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Development</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Security</a>
-              </li>
-           
-            </ul>
-          </div>
-
-          <div className="col">
-            <h5>Quick Links</h5>
-            <ul className="nav flex-column">
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Home</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Portfolio</a>
-              </li>
-              <li className="nav-item mb-2">
-                <a href="#" className="nav-link p-0 text-muted">Products</a>
-              </li>
-        </ul>
     </div>
-  </footer>
+
+</div>
+<div class="col-md-2 ml-auto">
+<h3>Company</h3>
+<ul class="list-unstyled links">
+<li><a href="#" className='footer-line'>About</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Traing</a></li>
+
+</ul>
+</div>
+<div class="col-md-2 ml-auto">
+<h3>Our Services</h3>
+<ul class="list-unstyled links">
+<li><a href="#">Designing</a></li>
+<li><a href="#">Development</a></li>
+<li><a href="#">Security</a></li>
+
+</ul>
+</div>
+<div class="col-md-2 ml-auto">
+<h3>Quick Links</h3>
+<ul class="list-unstyled links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Products</a></li>
+
+</ul>
+</div>
+</div>
+<div class="row mb-4">
+<div class="col-12 pb-4">
+<div class="line"></div>
+</div>
+
+
+</div>
+
+</div>
+
+</footer>
 <hr class="border border-top-0 opacity-10"></hr>
-<p className='cpoy-right'>
+<p className='copy-right'>
   Copyrights © 2023 Nutz Technovation Pvt.Ltd.
   </p>
   <p className='all-right'>
   All rights reserved.
   </p>
   <div class="corner">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up" viewBox="0 0 16 16">
     <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
   </svg>
 </div>
 
-</div>
-      
     </div>
   )
 }

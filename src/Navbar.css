@@ -8,7 +8,7 @@
     padding: 20px 30px !important;
 
     background-color: #fff;
-    border-bottom: 1px solid rgb(249, 240, 240);
+    border-bottom: 2px solid rgb(249, 240, 240);
     /* justify-content: space-between; */
    
   }
@@ -18,12 +18,12 @@
     margin-left: 300px;
   }
 
-  .img-thumbnail{
+  nav img{
 
-    max-width: 153px !important;
-    margin-left: 150px;
+    max-width: 300px !important;
     margin-top: 20px;
-    background-color: white;
+    padding-left: 100px;
+  
   }
 
   .bi-telephone{

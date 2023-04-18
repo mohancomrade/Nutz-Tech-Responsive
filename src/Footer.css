@@ -1,80 +1,90 @@
-.footer-header{
+.dummy-header{
 
-    background-color: black;
-    /* width: 100%;
-    height: 100vh; */
+  background-color: black;
+  /* color: white; */
 }
 
-.col h5{
+.dummy-header a{
 
-    color: #ffffff;
-    font-size: 18px !important;
-    margin-bottom:45px !important;
-    font-weight: bold;
-   
-}
-
-.col a{
-
-    font-weight: 600 !important;
-    margin-bottom: 10px !important;
-    /* color: rgb(224, 239, 253) !important; */
-}
-
-.col a:hover{
-
-    color: #ffffff !important;
-}
-
-
-  
-  .bi-facebook:hover {
-    color: white;
-    cursor: pointer;
-  }
-  
-  .bi-instagram,
-  .bi-linkedin,
-  .bi-envelope,.bi-facebook {
-    margin-left:  10px !important;
-    width: 50px !important;
-    height: 30px !important;
-    margin-top: 17px !important;
-    color: #f0f0f6 !important;
-  }
-  
-  .bi-instagram:hover,
-  .bi-linkedin:hover,
-  .bi-envelope {
-    color: white !important;
-    cursor: pointer !important;
-  }
-
-  .img-fluid{
-
-     width: 250px !important;
-     margin-left: 10px !important;
-  }
-
-  .cpoy-right{
-
-     color: white;
-  }
-
-  .all-right{
-    color: white;
-    text-align: end;
-  }
-  .corner {
+  text-decoration: none;
+  color: rgb(79, 78, 78);
+  padding: 15px !important;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
  
-    text-align: end !important;
-    color: white;
-  }
-  
-  .corner:hover{
+}
 
-    color: #ffffff;
-    font-weight: bold;
-    cursor: pointer;
-    margin-bottom: 10px !important;
-  }
+.dummy-header a:hover{
+
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.dummy-header h3{
+
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 80px;
+
+}
+
+.dummy-header img{
+
+  margin-left: 5px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.bi-facebook:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.bi-instagram,
+.bi-linkedin,
+.bi-envelope,.bi-facebook {
+  margin-left:  10px !important;
+  width: 50px !important;
+  height: 30px !important;
+  margin-top: 17px !important;
+  color: #f0f0f6 !important;
+}
+
+.bi-instagram:hover,
+.bi-linkedin:hover,
+.bi-envelope {
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.copy-right{
+  color: white;
+  margin-left: 100px;
+}
+
+.all-right{
+ color: white;
+ text-align: end;
+}
+.corner {
+
+ text-align: end !important;
+ color: white;
+}
+
+.corner:hover{
+
+ color: #ffffff;
+ font-weight: bold;
+ cursor: pointer;
+ margin-bottom: 10px !important;
+} 
+
+
+
+
+  

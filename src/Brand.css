@@ -1,6 +1,32 @@
-.brand-header{
+  
+  
+  .brand-header{
 
     background-color: rgb(247,247,252);
-    width: 100%;
-    height: 100vh;
+    border-radius: 100px;
+    /* margin-top: 20px; */
+   /* margin-bottom: 10px !important;  */
+    /* width: 50%; */
+    /* height: 50vh; */
+}
+
+#brand-today{
+
+    font-weight: bold;
+    color: #000000;
+  
+
+}
+
+.bi.bi-play-circle-fill {
+  width: 90px;
+  height: 100px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.brand-footer{
+
+  /* margin-top: 200px !important; */
+  /* margin-left: 150px !important; */
 }
