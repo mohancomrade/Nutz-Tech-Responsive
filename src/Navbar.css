@@ -1,0 +1,32 @@
+.container-fluid {
+    
+    margin-left: 190px !important;
+    color: #5a5b75 !important;
+    font-size: 18px;
+    margin-top: 20px !important;
+    font-weight: bold;
+    padding: 20px 30px !important;
+
+    background-color: #fff;
+    border-bottom: 1px solid rgb(249, 240, 240);
+    /* justify-content: space-between; */
+   
+  }
+ 
+  #nav-contact{
+
+    margin-left: 300px;
+  }
+
+  .img-thumbnail{
+
+    max-width: 153px !important;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  .bi-telephone{
+
+    margin-right: 10px;
+  }
