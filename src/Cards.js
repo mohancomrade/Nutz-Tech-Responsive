@@ -8,6 +8,7 @@ export default function cards() {
           textAlign: "center",
           fontSize: "32px",
           fontFamily: "sans-serif",
+        
         }}
       >
         What We Do
