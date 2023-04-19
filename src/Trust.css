@@ -1,0 +1,85 @@
+.trust-heading{
+    text-align: center;
+    /* padding-top: 100px; */
+}
+.trust-heading h1{
+ /* padding-top: 50px; */
+     padding-bottom: 50px;
+     font-size: 30px;
+     font-weight: bold;
+}
+.slider {
+   white-space: nowrap;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+  .slider1{
+   white-space: nowrap;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+.slider img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 320px; /* Set the width of the images */
+    margin-right: -4px; /* Negative margin to remove the gap between images */
+    animation: slide 5s linear infinite; /* Set the animation properties */
+  }
+.slider1 img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 320px; /* Set the width of the images */
+    margin-right: -4px; /* Negative margin to remove the gap between images */
+    animation: slide1 5s linear infinite; /* Set the animation properties */
+    padding-bottom: 80px;
+  }
+
+@keyframes slide {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+    
+  @keyframes slide1 {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slider img:last-child {
+    margin-right: 0;
+  }
+  .slider1 img:last-child {
+    margin-right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .slider img{
+
+        width: 50px;
+        margin-top: -110px;
+        /* height: 50px; */
+    }
+
+    .slider1 img {
+
+        width: 50px;
+         margin-top: -50px;
+    }
+
+    .trust-heading h1{
+
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        /* padding-top: -50px; */
+    }
+  }

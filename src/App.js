@@ -4,6 +4,7 @@ import Brand from './Brand';
 import About from './About';
 import Cards from './Cards';
 import Feature from './Feature';
+import Trust from './Trust';
 import Footer from './Footer';
 // import Dummy from './Dummy';
 
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Cards/>
       <Feature/>
+      <Trust/>
       {/* <Dummy/> */}
       <Footer/>
       

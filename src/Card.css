@@ -61,6 +61,12 @@
     border-color: #bfb9fa;
     cursor: pointer;
   }
+
+  .single-cards h3{
+
+    font-size: 20px;
+    font-weight: bold;
+  }
   
  .single-cards:hover h3 {
     margin: 0 0 12px;
